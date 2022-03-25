@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/images/pokeball.png">
+	<title>Pokedex JS</title>
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<form action="" id="form" class="form">
+		<input type="text" name="pokemon" class="form__input" placeholder="Enter the name">
+		<input type="submit" value="Buscar">
+	</form>
+
+	<div data-poke-card class="poke-card">
+		<div data-poke-name>Pokedex</div>
+		<div data-poke-img-container class="img-container">
+			<img data-poke-img src="assets/images/pokeball-blue.png" alt="Pokemon imagen" class="poke-img">
+		</div>
+		<div data-poke-id></div>
+		<div data-poke-types class="poke-types"></div>
+		<div data-poke-stats class="poke-stats"></div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
