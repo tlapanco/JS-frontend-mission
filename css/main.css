@@ -12,7 +12,7 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    background-color: lightgreen;
+    background-color: #ffff;
 }
 
 input[type="submit"] {
